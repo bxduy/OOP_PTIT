@@ -1,0 +1,22 @@
+package j08010;
+
+import java.util.*;
+import java.io.*;
+
+public class Main {
+	public static void main(String[] args) throws IOException {
+		Scanner sc = new Scanner(new File("A.in"));
+		LinkedHashMap<String, Integer> map = new LinkedHashMap<>();
+		while(sc.hasNext()) {
+			String s = sc.next();
+			if(check(s)) {
+				System.out.println(s);
+			}
+		}
+	}
+	public static boolean check(String s) {
+		StringBuffer res = new StringBuffer(s);
+		StringBuffer tmp = res.reverse();
+		return tmp.equals(res);
+	}
+}

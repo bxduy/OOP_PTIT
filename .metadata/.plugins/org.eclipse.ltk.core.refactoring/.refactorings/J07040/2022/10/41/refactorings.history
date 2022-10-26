@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;readObject&apos; from expression &apos;(ArrayList&lt;String&gt;)in.readObject()&apos;&#x0D;&#x0A;- Original project: &apos;J07040&apos;&#x0D;&#x0A;- Variable name: &apos;readObject&apos;&#x0D;&#x0A;- Destination method: &apos;J07040.Main.main(...)&apos;&#x0D;&#x0A;- Variable expression: &apos;(ArrayList&lt;String&gt;)in.readObject()&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;readObject&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;J07040{Main.java" name="readObject" replace="true" selection="493 34" stamp="1665073544286" varType="false" version="1.0"/>
+</session>

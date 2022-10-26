@@ -1,0 +1,15 @@
+package J04003;
+
+import java.util.*;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		long a = sc.nextLong();
+		long b = sc.nextLong();
+		Fraction frac = new Fraction(a, b);
+		frac.CompactFraction();
+		System.out.println(frac.getNumerator() + "/" + frac.getDenominator());
+		sc.close();
+	}
+}
